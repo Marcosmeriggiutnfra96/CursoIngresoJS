@@ -2,15 +2,48 @@ function Mostrar()
 {
 
 	var contador=0;
-	//declarar contadores y variables 
-	
-	var respuesta="si";
+	var respuesta=true;
+	var num
+	var acumulador
 
-	while(respuesta!="no")
+	while(respuesta==true)
 	{
-		
-	
-	}
+		num=prompt()
+		num=parseInt(num)
+if(num<0)
+{
+
+acumulador+=num
+contado++
+
+}	
+else if(num>0)
+{
+
+acumulador+=num
+contador++
+}
+else if(num=0)
+{
+	acumulador+=num
+
+}
+
+document.write(num)
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 

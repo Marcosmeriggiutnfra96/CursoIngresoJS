@@ -3,10 +3,28 @@ function Mostrar()
 
 	var contador=0;
 	var acumulador=0;
-	var respuesta='si';
+	var num;
+	var resp=true
+while(resp==true)
+{
+contador++;
+num=prompt("ingrese un numero");
+num=parseInt(num);
 
+while(isNaN(num))
+{
+num=prompt("ingrese un numero");
+num=parseInt(num);
+
+}
+console.log(num);
+acumulador=acumulador+num;
+acumulador+=num;
+
+resp = confirm()
+}
 
 document.getElementById('suma').value=acumulador;
-document.getElementById('promedio').value=acumulador/contador;
+document.getElementById('promedio').value=acumulador/5;
 
 }//FIN DE LA FUNCIÓN
